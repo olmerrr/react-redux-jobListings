@@ -34,7 +34,7 @@ body {
 }
 
 .container {
-  width: 100;
+  width: 100%;
   padding: 0 0.75rem;
   margin: 0 auto;
 }
@@ -166,12 +166,12 @@ body {
 .job-position-body .badge {
   font-size: 10px;
 }
-.job-postion-company {
+.job-position-company {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.job-postion-company h3 {
+.job-position-company h3 {
   margin: 0;
   font-style: var(--fs-normal);
   color: var(--primary);
@@ -229,7 +229,7 @@ body {
   .job-position-info {
     padding: 0;
     margin-bottom: 0;
-    border-bottom: 0px;
+    border-bottom: 0;
   }
 
   .job-position-avatar {
