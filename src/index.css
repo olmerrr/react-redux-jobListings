@@ -210,6 +210,10 @@ body {
   gap: 3rem;
 }
 
+.no-filters {
+  line-height: 32px;
+}
+
 @media (min-width: 1024px) {
   .header {
     background-image: url(./assets/images/bg-header-desktop.svg);
